@@ -96,15 +96,20 @@ export default function Home() {
           <div className="hero-actions" id="paper">
             <a
               className="pill"
-              href="https://github.com/ChenAnno/Awesome-Agentic-Robots"
+              href="https://github.com/showlab/Awesome-Multimodal-Embodied-Agent"
               target="_blank"
               rel="noopener noreferrer"
             >
               GitHub
             </a>
-            <button className="pill paper-placeholder" type="button" disabled>
+            <a
+              className="pill"
+              href="https://raw.githubusercontent.com/showlab/Awesome-Multimodal-Embodied-Agent/main/assets/readme/SURVEY_Multimodal_Embodied_Agent.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Paper
-            </button>
+            </a>
           </div>
         </div>
       </header>
@@ -212,7 +217,7 @@ export default function Home() {
             <h2 id="benchmarks-title">Benchmarks & evaluation</h2>
             <p>
               <a
-                href="https://github.com/ChenAnno/Awesome-Agentic-Robots#e-benchmarks"
+                href="https://github.com/showlab/Awesome-Multimodal-Embodied-Agent#e-benchmarks"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -233,12 +233,7 @@ sup {
 .section-nav a:active {
   background: #dcecf9;
 }
-.paper-placeholder,
-.paper-placeholder:hover {
-  color: var(--muted);
-  background: #e1e6ec;
-  cursor: not-allowed;
-}
+
 .paper-section {
   position: relative;
   padding-top: 56px;
