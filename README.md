@@ -28,9 +28,9 @@
 <a href="https://sites.google.com/view/showlab/home">Show Lab @ National University of Singapore</a><br>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2510.01174">📄 Paper</a> &nbsp; | &nbsp;
+  <a href="https://raw.githubusercontent.com/showlab/Awesome-Multimodal-Embodied-Agent/main/assets/readme/SURVEY_Multimodal_Embodied_Agent.pdf">📄 Paper</a> &nbsp; | &nbsp;
   <!--<a href="https://huggingface.co/papers/2510.01174">🤗 Daily Paper</a> &nbsp; | &nbsp;-->
-  <a href="https://seizethe-day.github.io/PAPAV/">🌐 Project Website</a>
+  <a href="https://showlab.github.io/Awesome-Multimodal-Embodied-Agent/">🌐 Project Website</a>
   <!--<a href="https://x.com/KevinQHLin/status/1974199353695941114">💬 X (Twitter)</a>-->
 </p>
 
@@ -65,7 +65,7 @@ multimodal reasoning with physical action and learn from the resulting feedback.
 
 > [!IMPORTANT]
 > **This area is growing quickly, and so is this list.** If we missed a paper, or you have just published
-> one of your own, please [open an issue](https://github.com/ChenAnno/Awesome-Agentic-Robots/issues/new/choose)
+> one of your own, please [open an issue](https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/issues/new/choose)
 > or send a pull request. We are always glad to add new work!
 
 ## 🌳 Taxonomy
@@ -1099,7 +1099,7 @@ manipulation, navigation, humanoids, and the data and simulators behind them.
 Contributions are very welcome — new papers, corrections, better categorization, or dead-link fixes.
 
 1. Read [CONTRIBUTING.md](./CONTRIBUTING.md) for the entry format and placement rules.
-2. Either [open an issue](https://github.com/ChenAnno/Awesome-Agentic-Robots/issues/new/choose)
+2. Either [open an issue](https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/issues/new/choose)
    with the paper details, or send a pull request directly.
 
 Every correction, addition, and categorization improvement is appreciated. Contributors are recorded

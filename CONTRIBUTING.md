@@ -12,7 +12,7 @@ view, not a requirement for a particular architecture, model family, task, or em
 There are two ways to contribute.
 
 **1. Open an issue (easiest).** Use the
-[Add a paper](https://github.com/ChenAnno/Awesome-Agentic-Robots/issues/new/choose) template.
+[Add a paper](https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/issues/new/choose) template.
 Maintainers will review the suggestion and help format and add it if it fits the collection.
 Author, venue, and release-date information in an issue supports review and ordering; it does not
 appear in the README entry.
