@@ -131,7 +131,7 @@ export const benchmarks: Benchmark[] = [
     "category": "MMEA",
     "subcategory": "Real",
     "coverage": [
-      "partial",
+      "direct",
       "partial",
       "direct",
       "direct",

@@ -1,5 +1,5 @@
 // Content follows active inputs in the September 2026 manuscript's main.tex.
-// Benchmark counts come from the current table; the manuscript abstract still has older totals.
+// Benchmark counts follow the final September 2026 manuscript table.
 export const surveyTitle =
   "Survey on Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use";
 export const surveyDescription =

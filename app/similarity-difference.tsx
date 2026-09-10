@@ -75,7 +75,14 @@ export default function SimilarityDifference() {
           </a>
           <figcaption>
             Left: MMA–MMEA differences. Center: shared capability. Right:
-            MMEA–RS differences.
+            MMEA–RS differences.{" "}
+            <a
+              href="paper-figures/sec3-capabilities.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Full comparison ↗
+            </a>
           </figcaption>
         </figure>
       </div>
