@@ -354,9 +354,6 @@ export default function BenchmarkExplorer() {
 
       <div className="paper-table-heading">
         <div>
-          <span className="dashboard-kicker">
-            Paper table · interactive edition
-          </span>
           <h3>Benchmark overview & PAPAV coverage</h3>
         </div>
         <p>

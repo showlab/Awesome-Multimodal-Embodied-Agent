@@ -1,21 +1,26 @@
 "use client";
 
-import { useState, type CSSProperties } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { capabilities } from "./survey-content";
-
-function CapabilityTransition({ text }: { text: string }) {
-  const [source, target] = text.split(" → ");
-  return (
-    <p className="comparison-takeaway comparison-transition">
-      <span>{source}</span>
-      <span>→ {target}</span>
-    </p>
-  );
-}
+import { comparisons, type Flow } from "./capability-comparison-data";
 
 export default function SimilarityDifference() {
   const [active, setActive] = useState(0);
+  const [visible, setVisible] = useState(false);
+  const stageRef = useRef<HTMLDivElement>(null);
   const item = capabilities[active];
+  const diagram = comparisons[active];
+
+  useEffect(() => {
+    const stage = stageRef.current;
+    if (!stage) return;
+    const observer = new IntersectionObserver(([entry]) => {
+      setVisible(entry.isIntersecting);
+    }, { threshold: 0.12 });
+    observer.observe(stage);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section
       className="paper-section wide-column"
@@ -31,6 +36,7 @@ export default function SimilarityDifference() {
             key={entry.name}
             type="button"
             aria-pressed={active === index}
+            aria-controls="capability-comparison"
             onClick={() => setActive(index)}
             style={{ "--capability": entry.color } as CSSProperties}
           >
@@ -39,53 +45,66 @@ export default function SimilarityDifference() {
         ))}
       </div>
       <div
-        className="comparison-content"
-        aria-live="polite"
+        ref={stageRef}
+        id="capability-comparison"
+        className={`comparison-content${visible ? " comparison-in-view" : ""}`}
         style={{ "--capability": item.color } as CSSProperties}
       >
-        <h3 className="capability-summary">
+        <h3 className="capability-summary" aria-live="polite">
           {item.name}: {item.question}
         </h3>
-        <div className="comparison-grid">
-          <article>
-            <p className="comparison-label">MMA → MMEA</p>
-            <CapabilityTransition text={item.digital} />
+        <div className="capability-triptych" key={item.name}>
+          <ComparisonColumn label="MMA & MMEA" flows={diagram.left} side="left" />
+          <article className="capability-shared">
+            <header>Shared capability</header>
+            <div className="capability-shared-art">
+              <img src={diagram.shared.image} alt="" width="240" height="180" />
+            </div>
+            <h4>{item.shared}</h4>
           </article>
-          <article>
-            <p className="comparison-label">Shared capability</p>
-            <p className="comparison-takeaway">{item.shared}</p>
-          </article>
-          <article>
-            <p className="comparison-label">RS → MMEA</p>
-            <CapabilityTransition text={item.robotics} />
-          </article>
+          <ComparisonColumn label="MMEA & RS" flows={diagram.right} side="right" />
         </div>
-        <figure className="paper-figure capability-figure">
-          <a
-            href={`paper-figures/${item.name.toLowerCase()}.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`Open the ${item.name} comparison figure`}
-          >
-            <img
-              src={`paper-figures/${item.name.toLowerCase()}.webp`}
-              alt={`${item.name}: shared capability, MMEA versus MMA, and MMEA versus robotic systems`}
-              loading="lazy"
-            />
+        <div className="comparison-source">
+          <a href="paper-figures/sec3-capabilities.pdf" target="_blank" rel="noopener noreferrer">
+            Full comparison ↗
           </a>
-          <figcaption>
-            Left: MMA–MMEA differences. Center: shared capability. Right:
-            MMEA–RS differences.{" "}
-            <a
-              href="paper-figures/sec3-capabilities.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Full comparison ↗
-            </a>
-          </figcaption>
-        </figure>
+        </div>
       </div>
     </section>
+  );
+}
+
+function ComparisonColumn({ label, flows, side }: {
+  label: string;
+  flows: [Flow, Flow];
+  side: "left" | "right";
+}) {
+  return (
+    <div className={`capability-boundary capability-boundary-${side}`}>
+      <header>{label}</header>
+      <div className="capability-paired-flows">
+        {flows.map((flow) => <FlowCard key={flow.code} flow={flow} />)}
+      </div>
+    </div>
+  );
+}
+
+function FlowCard({ flow }: { flow: Flow }) {
+  return (
+    <article className="capability-flow">
+      <h4 className={`capability-family capability-family-${flow.code.toLowerCase()}`}>{flow.code}</h4>
+      <div className="capability-flow-sequence">
+        <div>
+          <img src={flow.input[0]} alt="" width="96" height="96" />
+          <span>{flow.input[1]}</span>
+        </div>
+        <span className="capability-flow-arrow" aria-hidden="true">→</span>
+        <div>
+          <img src={flow.output[0]} alt="" width="96" height="96" />
+          <span>{flow.output[1]}</span>
+        </div>
+      </div>
+      <p>{flow.caption}</p>
+    </article>
   );
 }

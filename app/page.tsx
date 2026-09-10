@@ -116,8 +116,8 @@ export default function Home() {
       <nav className="section-nav" aria-label="Page sections">
         <a href="#abstract">Abstract</a>
         <a href="#framework">Framework</a>
-        <a href="#comparison">Capabilities</a>
         <a href="#landscape">Research landscape</a>
+        <a href="#comparison">Capabilities</a>
         <a href="#benchmarks">Benchmarks</a>
         <a href="#challenges">Open challenges</a>
       </nav>
@@ -195,8 +195,6 @@ export default function Home() {
           </div>
         </section>
 
-        <SimilarityDifference />
-
         <section
           className="paper-section wide-column"
           id="landscape"
@@ -208,6 +206,8 @@ export default function Home() {
           <EvolutionTree />
         </section>
 
+        <SimilarityDifference />
+
         <section
           className="paper-section wide-column"
           id="benchmarks"
@@ -215,15 +215,6 @@ export default function Home() {
         >
           <div className="section-intro">
             <h2 id="benchmarks-title">Benchmarks & evaluation</h2>
-            <p>
-              <a
-                href="https://github.com/showlab/Awesome-Multimodal-Embodied-Agent#e-benchmarks"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Benchmark references on GitHub
-              </a>
-            </p>
           </div>
           <BenchmarkExplorer />
         </section>

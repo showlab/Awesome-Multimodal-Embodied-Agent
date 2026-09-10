@@ -333,37 +333,157 @@ figcaption {
   border-left: 3px solid var(--capability);
   background: var(--soft);
 }
-.comparison-grid {
+/* Animated comparison, contained within the existing section width. */
+.capability-triptych {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 30px;
-  margin: 28px 0;
+  grid-template-columns: minmax(0, 1fr) minmax(0, .62fr) minmax(0, 1fr);
+  gap: 14px;
+  margin-top: 24px;
 }
-.comparison-grid article {
+.capability-boundary, .capability-shared {
   min-width: 0;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--capability);
+  border-radius: 8px;
+  background: #fff;
 }
-.comparison-label {
-  color: var(--ink);
-  border-left: 4px solid var(--capability);
-  padding-left: 10px;
+.capability-boundary > header, .capability-shared > header {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--line);
+  font-size: 16px;
   font-weight: 700;
-  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: center;
+  background: var(--soft);
+  border-radius: 5px 5px 0 0;
 }
-.comparison-takeaway {
-  margin-bottom: 0;
-  font-size: var(--text);
-  font-weight: 400;
-  line-height: 1.6;
+.capability-paired-flows {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.capability-flow {
+  min-width: 0;
+  padding: 16px 10px 18px;
+}
+.capability-flow + .capability-flow { border-left: 1px solid var(--line); }
+.capability-family {
+  width: fit-content;
+  margin: 0 auto 18px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.capability-family-mma { background: var(--mmagent); }
+.capability-family-mmea { background: var(--mmembodied); }
+.capability-family-rs { background: var(--robotics); }
+.capability-flow-sequence {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 18px minmax(0, 1fr);
+  gap: 2px;
+  align-items: start;
+}
+.capability-flow-sequence > div { min-width: 0; text-align: center; }
+.capability-flow-sequence img {
+  display: block;
+  width: 100%;
+  height: 84px;
+  object-fit: contain;
+  transition: transform .45s cubic-bezier(.16, 1, .3, 1);
+}
+.capability-flow:hover img { transform: translateY(-4px); }
+.capability-flow-sequence > div > span {
+  display: block;
+  white-space: pre-line;
+  min-height: 56px;
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--muted);
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+.capability-flow-arrow {
+  margin-top: 24px;
+  font-size: 20px;
+  color: var(--muted);
+  animation: capability-arrow-pulse 1.8s ease-in-out infinite;
+}
+.capability-flow > p {
+  margin: 14px 0 0;
+  min-height: 44px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: center;
   text-wrap: balance;
 }
-.comparison-transition {
-  text-wrap: wrap;
+.capability-shared {
+  text-align: center;
+  background: color-mix(in srgb, var(--capability) 7%, white);
 }
-.comparison-transition > span {
-  display: block;
+.capability-shared-art {
+  display: grid;
+  place-items: center;
+  height: 196px;
+  padding: 22px 18px 8px;
 }
-.capability-figure {
-  margin-bottom: 0;
+.capability-shared-art img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  animation: capability-art-float 4.8s ease-in-out infinite alternate;
+}
+.capability-shared > h4 {
+  margin: 8px 16px 22px;
+  font-size: 18px;
+  line-height: 1.45;
+  text-wrap: balance;
+}
+.comparison-source { margin-top: 16px; text-align: right; font-size: 14px; }
+.capability-boundary-left { --entrance-x: -24px; }
+.capability-boundary-right { --entrance-x: 24px; }
+.capability-shared { --entrance-x: 0px; --entrance-y: 20px; }
+.comparison-in-view .capability-boundary,
+.comparison-in-view .capability-shared {
+  animation: capability-panel-in .7s cubic-bezier(.16, 1, .3, 1) both;
+}
+.comparison-in-view .capability-shared { animation-delay: .12s; }
+.comparison-in-view .capability-boundary-right { animation-delay: .06s; }
+.comparison-content:not(.comparison-in-view) .capability-flow-arrow,
+.comparison-content:not(.comparison-in-view) .capability-shared-art img { animation-play-state: paused; }
+@keyframes capability-panel-in {
+  from { opacity: 0; transform: translate(var(--entrance-x), var(--entrance-y, 0px)); }
+  to { opacity: 1; transform: translate(0, 0); }
+}
+@keyframes capability-arrow-pulse {
+  0%, 100% { opacity: .55; transform: translateX(-2px); }
+  50% { opacity: 1; transform: translateX(2px); }
+}
+@keyframes capability-art-float {
+  from { transform: translateY(-3px) rotate(-.4deg); }
+  to { transform: translateY(5px) rotate(.4deg); }
+}
+@media (max-width: 1000px) {
+  .capability-triptych { gap: 10px; grid-template-columns: minmax(0, 1fr) minmax(0, .62fr) minmax(0, 1fr); }
+  .capability-paired-flows { grid-template-columns: 1fr; }
+  .capability-flow + .capability-flow { border-left: 0; border-top: 1px solid var(--line); }
+  .capability-flow { padding: 12px; }
+  .capability-family { margin-bottom: 10px; }
+  .capability-flow-sequence > div > span { min-height: 38px; }
+  .capability-flow > p { min-height: 0; margin-top: 8px; }
+  .capability-shared-art { height: 220px; }
+}
+@media (max-width: 600px) {
+  .capability-triptych { grid-template-columns: 1fr; gap: 16px; }
+  .capability-shared { grid-row: 1; }
+  .capability-shared-art { height: 150px; padding-top: 10px; }
+  .capability-shared-art img { height: 130px; }
+  .capability-paired-flows { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .capability-flow + .capability-flow { border-top: 0; border-left: 1px solid var(--line); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .comparison-content *, .comparison-in-view * { animation: none !important; transition: none !important; }
 }
 .evolution-tree {
   margin-bottom: 0;
@@ -772,14 +892,6 @@ footer img {
 @media (max-width: 900px) {
   .capability-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .comparison-grid {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-  .comparison-grid article + article {
-    border-top: 1px solid var(--line);
-    padding-top: 24px;
   }
   .benchmark-controls {
     grid-template-columns: repeat(2, minmax(0, 1fr));
