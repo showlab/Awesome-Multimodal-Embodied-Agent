@@ -1120,3 +1120,21 @@ citation.
 ## ⚖️ License
 
 Released under [CC0-1.0](./LICENSE). The listed papers remain under their own licenses and copyright.
+
+## 📌 Citation
+
+<!--If you find our repository useful, please cite:
+
+```bibtex
+@misc{chen2026showharnessjustvlmagent,
+      title={Show-Harness: Just a VLM Agent Can Play Robots}, 
+      author={Yanzhe Chen and Zechen Bai and Zhijun Cao and Wenzheng Zeng and Kevin Qinghong Lin and Yiqi Lin and Guoqiang Liang and Kevin Yuchen Ma and Qiming Huang and Mike Zheng Shou},
+      year={2026},
+      eprint={2609.10522},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2609.10522}, 
+}
+```-->
+
+If you like the repository, please give us a star ⭐ — it is how we hear that it is useful.
