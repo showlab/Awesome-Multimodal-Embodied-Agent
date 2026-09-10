@@ -10,7 +10,7 @@ Current README assets:
 
 Latest manuscript and capability figures:
 
-- [Survey PDF](readme/SURVEY_Multimodal_Embodied_Agent.pdf)
+- [Survey PDF](SURVEY_Multimodal_Embodied_Agent.pdf)
 - [PAPAV capability comparison](readme/sec3-capabilities.pdf) · [Web preview](readme/sec3-capabilities.webp)
 - [Verify comparison](readme/verify.pdf) · [Web preview](readme/verify.webp)
 
