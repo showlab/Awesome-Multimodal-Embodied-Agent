@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.SITE_URL ?? "https://showlab.github.io/Awesome-Multimodal-Embodied-Agent/"),
   title: surveyTitle,
   description: surveyDescription,
-  icons: { icon: "https://showlab.github.io/Awesome-Multimodal-Embodied-Agent/favicon-showlab.png" },
+  icons: { icon: "https://showlab.github.io/Awesome-Multimodal-Embodied-Agent/favicon-showlab-proportional.svg" },
   openGraph: {
     title: surveyTitle,
     description: surveyDescription,
