@@ -61,7 +61,7 @@ multimodal reasoning with physical action and learn from the resulting feedback.
   contribution, not architecture, so multimodal agents, robotic systems, and MMEAs sit on the same coordinate.
 - 🤖 **Physics changes the loop.** Five physical constraints leave fewer choices fixed in advance and less
   room to reverse errors.
-- 🧪 **Success hides gaps.** Of 62 benchmarks, only 4 assess Anticipate and 3 assess Verify.
+- 🧪 **Success hides gaps.** Of 64 benchmarks, only 5 assess Anticipate and 3 assess Verify.
 
 > [!IMPORTANT]
 > **This area is growing quickly, and so is this list.** If we missed a paper, or you have just published
