@@ -28,7 +28,7 @@
 <a href="https://sites.google.com/view/showlab/home">Show Lab @ National University of Singapore</a><br>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/showlab/Awesome-Multimodal-Embodied-Agent/main/assets/SURVEY_Multimodal_Embodied_Agent.pdf">📄 Paper</a> &nbsp; | &nbsp;
+  <a href="https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/SURVEY_Multimodal_Embodied_Agent.pdf">📄 Paper</a> &nbsp; | &nbsp;
   <!--<a href="https://huggingface.co/papers/2510.01174">🤗 Daily Paper</a> &nbsp; | &nbsp;-->
   <a href="https://showlab.github.io/Awesome-Multimodal-Embodied-Agent/">🌐 Project Website</a>
   <!--<a href="https://x.com/KevinQHLin/status/1974199353695941114">💬 X (Twitter)</a>-->
