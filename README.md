@@ -79,7 +79,7 @@ multimodal reasoning with physical action and learn from the resulting feedback.
 <p align="center"><sub>A chronological view of representative robotic systems, multimodal embodied agents, and multimodal agents.</sub></p>
 
 ## 📢 News
-- [x] `2026.09` heck out our [survey paper](https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/SURVEY_Multimodal_Embodied_Agent.pdf) on Multimodal Embodied Agents!
+- [x] `2026.09` Check out our [survey paper](https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/SURVEY_Multimodal_Embodied_Agent.pdf) on Multimodal Embodied Agents!
 - [x] `2026.09` First release: 310 papers across MMEAs, multimodal agents, robotic systems, and benchmarks.
 
 <!-- Add only verified project milestones or substantial collection updates here. -->
