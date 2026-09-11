@@ -156,6 +156,9 @@ language-conditioned robot world models, and embodied memory.
 - **CheckVLA: Execution-Time Verification with Action-Conditioned World Model for Long-Horizon Mobile Manipulation**  
   [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.26789)
 
+- **ETA: A New Agentic Paradigm for Embodied Tasks**  
+  [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat-square)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03924) [![Code](https://img.shields.io/github/stars/OpenMOSS/OpenETA?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/OpenMOSS/OpenETA) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://openmoss.ai/OpenETA/)
+
 - **RoboTTT: Context Scaling for Robot Policies**  
   [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.15275) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://research.nvidia.com/labs/gear/robottt/)
 
