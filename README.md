@@ -1102,8 +1102,8 @@ manipulation, navigation, humanoids, and the data and simulators behind them.
 Contributions are very welcome — new papers, corrections, better categorization, or dead-link fixes.
 
 1. Read [CONTRIBUTING.md](./CONTRIBUTING.md) for the entry format and placement rules.
-2. Either [open an issue](https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/issues/new/choose)
-   with the paper details, or send a pull request directly.
+2. Edit this README and submit a pull request against `main`. Include the first public release
+   date and your section choice when adding a paper.
 
 Every correction, addition, and categorization improvement is appreciated. Contributors are recorded
 in the repository history and on GitHub's contributor graph.
