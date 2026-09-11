@@ -28,7 +28,7 @@
 <a href="https://sites.google.com/view/showlab/home">Show Lab @ National University of Singapore</a><br>
 
 <p align="center">
-  <a href="https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/SURVEY_Multimodal_Embodied_Agent.pdf">📄 Paper</a> &nbsp; | &nbsp;
+  <a href="https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/Awesome_Multimodal_Embodied_Agent.pdf">📄 Paper</a> &nbsp; | &nbsp;
   <!--<a href="https://huggingface.co/papers/2510.01174">🤗 Daily Paper</a> &nbsp; | &nbsp;-->
   <a href="https://showlab.github.io/Awesome-Multimodal-Embodied-Agent/">🌐 Project Website</a>
   <!--<a href="https://x.com/KevinQHLin/status/1974199353695941114">💬 X (Twitter)</a>-->
@@ -79,7 +79,7 @@ multimodal reasoning with physical action and learn from the resulting feedback.
 <p align="center"><sub>A chronological view of representative robotic systems, multimodal embodied agents, and multimodal agents.</sub></p>
 
 ## 📢 News
-- [x] `2026.09` Check out our [survey paper](https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/SURVEY_Multimodal_Embodied_Agent.pdf) on Multimodal Embodied Agents!
+- [x] `2026.09` Check out our [survey paper](https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/Awesome_Multimodal_Embodied_Agent.pdf) on Multimodal Embodied Agents!
 - [x] `2026.09` First release: 310 papers across MMEAs, multimodal agents, robotic systems, and benchmarks.
 
 <!-- Add only verified project milestones or substantial collection updates here. -->
