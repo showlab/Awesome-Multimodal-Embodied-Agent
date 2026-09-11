@@ -1,18 +1,22 @@
-## What does this PR do?
+## What changed?
 
-<!-- e.g. "Adds 3 papers to C. Robots" or "Fixes dead code link for X" -->
+<!-- Example: Add OpenETA to B. Multimodal Embodied Agents, or fix a broken paper link. -->
 
-## Papers added
+## For a new entry
 
-<!-- Paste the entries you added, or write "n/a". -->
+<!-- Delete this section for corrections or documentation-only changes. -->
 
-## Checklist
+- **Paper or resource:**
+- **First public release date and source:**
+- **Section and why it fits:**
 
-- [ ] Entries follow the three-line format in [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md),
-      including the two trailing spaces on lines 1 and 2.
-- [ ] No template values left over (`grep -n "Paper Title Goes Here\|Author One\|0000.00000" README.md`).
-- [ ] Not already listed elsewhere in the README.
-- [ ] All links resolve.
-- [ ] Date is `YYYY.MM` of the first public version.
-- [ ] Each paper is in exactly one section, newest first.
-- [ ] Table of Contents updated if sections were added or renamed.
+<!-- For benchmarks, also describe the tasks, protocol, metric, and PAPAV relevance. -->
+
+## Checklist for new entries
+
+<!-- Delete this checklist if no entry is being added. See CONTRIBUTING.md for the format. -->
+
+- [ ] Listed once, in the right section and first-release date order.
+- [ ] Two-line entry, with two trailing spaces after the title and the section badge first.
+- [ ] Example values replaced; links checked and official.
+- [ ] Release date and placement explained above; README contains only the title and links.
