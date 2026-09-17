@@ -243,6 +243,9 @@ language-conditioned robot world models, and embodied memory.
 - **Evaluating VLMs' Spatial Reasoning Over Robot Motion: A Step Towards Robot Planning with Motion Preferences**  
   [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.13100)
 
+- **RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks**  
+  [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat-square)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.11558) [![Code](https://img.shields.io/github/stars/RoboClaw-Robotics/RoboClaw?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/RoboClaw-Robotics/RoboClaw) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://roboclaw-agibot.github.io/)
+
 - **AsyncVLA: An Asynchronous VLA for Fast and Robust Navigation on the Edge**  
   [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.13476)
 
