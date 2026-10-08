@@ -104,6 +104,9 @@ multimodal reasoning with physical action and learn from the resulting feedback.
 
 Prior surveys and reviews adjacent to our scope.
 
+- **LLM Agents: A Survey**  
+  [![Survey](https://img.shields.io/badge/-Survey-F29A8F?style=flat)](#-a-related-surveys) [![Paper](https://img.shields.io/badge/-Paper-7FAFD4?style=flat-square)](https://www.preprints.org/manuscript/202608.0265/v1) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://llm-agents-a-survey.gitbook.io/llm-agents-a-survey-docs/)
+
 - **How Agents Ask for Permission: User Permissions for AI Agents, from Interfaces to Enforcement**  
   [![Survey](https://img.shields.io/badge/-Survey-F29A8F?style=flat)](#-a-related-surveys) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.13718)
 
