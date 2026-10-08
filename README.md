@@ -1117,17 +1117,22 @@ We thank the researchers who make their papers, code, models, datasets, and proj
 available, as well as the maintainers of the related collections that help the community navigate this
 fast-moving field.
 
-## 📝 Citation
-
-The official survey citation is not public yet. A verified BibTeX entry will be added after the
-manuscript is released. Until then, please link to this repository rather than using a provisional
-citation.
-
 ## ⚖️ License
 
 Released under [CC0-1.0](./LICENSE). The listed papers remain under their own licenses and copyright.
 
-## 📌 Citation
+
+## 📝 Citation
+
+If you find our repository useful, please cite:
+```bibtex
+@article{chen2026survey,
+  title={Survey on Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use},
+  author={Chen, Yanzhe and Yang, Ziyi and Zhu, Jifeng and Huang, Qiming and An, Ruihe and Xu, Peiyao and Yang, Hesen and Liu, Runda and Gong, Chang and Cao, Zhijun and others},
+  year={2026},
+  publisher={Engineering Archive}
+}
+```
 
 <!--If you find our repository useful, please cite:
 
