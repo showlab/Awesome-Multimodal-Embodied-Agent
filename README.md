@@ -14,7 +14,7 @@
 <a href="https://anruihe.github.io/">Ruihe An</a> &middot;
 <a href="https://github.com/xupeiyao-dev">Peiyao Xu</a><br>
 <a href="https://academic.hesenyang-ethan.com/">Hesen Yang</a> &middot;
-<a href="https://github.com/Jackupjcup">Runda Liu</a> &middot;
+<a href="https://jackupjcup.github.io/">Runda Liu</a> &middot;
 <a href="https://github.com/seizethe-day">Chang Gong</a> &middot;
 <a href="https://caozhijun.top/">Zhijun Cao</a> &middot;
 <a href="https://www.baizechen.site/">Zechen Bai</a> &middot;
