@@ -510,6 +510,9 @@ screens, browsers, documents, and APIs — without a physical body.
 - **Player-1: Learning to Play from Synthetic Experience**  
   [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat-square)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.20584) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://player-1-project.github.io/)
 
+- **agent-qa is <span>#</span>1 on AndroidWorld benchmark**  
+  [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat-square)](#-c-multimodal-agents) [![Blog](https://img.shields.io/badge/-Blog-FF4FA3?style=flat-square)](https://vostride.com/benchmark/android-world) [![Code](https://img.shields.io/github/stars/vostride/agent-qa?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/vostride/agent-qa) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://vostride.com/)
+
 - **AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents**  
   [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.05891)
 
