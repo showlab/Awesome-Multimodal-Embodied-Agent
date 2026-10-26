@@ -104,7 +104,7 @@ export default function Home() {
             </a>
             <a
               className="pill"
-              href="https://github.com/showlab/Awesome-Multimodal-Embodied-Agent/blob/main/assets/Awesome_Multimodal_Embodied_Agent.pdf"
+              href="https://arxiv.org/abs/2610.30108"
               target="_blank"
               rel="noopener noreferrer"
             >
