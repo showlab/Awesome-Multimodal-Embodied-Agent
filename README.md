@@ -150,6 +150,9 @@ Foundation-model-driven agents that couple multimodal perception and reasoning t
 sensing and physical action in a closed loop — VLAs, LLM/VLM planners and critics for robots,
 language-conditioned robot world models, and embodied memory.
 
+- **Spotter: Let the Embodied Model Lead, and the VLM Reflect for It**  
+  [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat-square)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.36808) [![Code](https://img.shields.io/github/stars/zqc3117/Spotter?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/zqc3117/Spotter) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://zqc3117.github.io/Spotter/)
+
 - **Mimir: A Neuro-Symbolic Memory System with Dynamic Grounding for Embodied Agents in Interactive Environments**  
   [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04933)
 
