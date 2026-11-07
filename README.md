@@ -525,14 +525,17 @@ screens, browsers, documents, and APIs — without a physical body.
 - **Interactive Reward Agent: GUI Task Evaluation via Environment-State Verification**  
   [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.25904)
 
-- **From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents**  
-  [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.09863)
+- **Qwen-AgentWorld: Language World Models for General Agents**  
+  [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.24597) [![Code](https://img.shields.io/github/stars/QwenLM/Qwen-AgentWorld?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/QwenLM/Qwen-AgentWorld)
+
+- **JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence**  
+  [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat-square)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.14777) [![Code](https://img.shields.io/github/stars/jd-opensource/JoyAI-VL-Interaction?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/jd-opensource/JoyAI-VL-Interaction)
 
 - **Oversight Has a Capacity: Calibrating Agent Guards to a Subjective, Fatiguing Human**  
   [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.08919) [![Code](https://img.shields.io/github/stars/turangenesis/headroom?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/turangenesis/headroom)
 
-- **Qwen-AgentWorld: Language World Models for General Agents**  
-  [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.24597) [![Code](https://img.shields.io/github/stars/QwenLM/Qwen-AgentWorld?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/QwenLM/Qwen-AgentWorld)
+- **From Confident Closing to Silent Failure: Characterizing False Success in LLM Agents**  
+  [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.09863)
 
 - **A11y-Compressor: A Framework for Enhancing the Efficiency of GUI Agent Observations through Visual Context Reconstruction and Redundancy Reduction**  
   [![MMA](https://img.shields.io/badge/-MMA-A9D6F5?style=flat)](#-c-multimodal-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.00551)
@@ -734,6 +737,9 @@ screens, browsers, documents, and APIs — without a physical body.
 
 Robot learning, perception, and control in the **physical** world — vision-language-action models,
 manipulation, navigation, humanoids, and the data and simulators behind them.
+
+- **MJev-Spatial: System One Spatial Intelligence via Native Attention Matching**  
+  [![RS](https://img.shields.io/badge/-RS-F6C58D?style=flat-square)](#-d-robotic-systems) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.22276) [![Code](https://img.shields.io/github/stars/Fr0zenCrane/MJev-Spatial?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/Fr0zenCrane/MJev-Spatial)
 
 - **ActionMap: Robot Policy Learning via Voxel Action Heatmap**  
   [![RS](https://img.shields.io/badge/-RS-F6C58D?style=flat)](#-d-robotic-systems) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.06904)
