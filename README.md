@@ -225,6 +225,9 @@ language-conditioned robot world models, and embodied memory.
 - **OASIS: Observation-Action Space Alignment via SE(3) Trajectory Prediction for Robotic Manipulation**  
   [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.25829)
 
+- **Think Twice, Act Once: Verifier-Guided Action Selection For Embodied Agents**  
+  [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat-square)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.12620) [![Code](https://img.shields.io/github/stars/nishadsinghi/vegas?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/nishadsinghi/vegas) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://nishadsinghi.github.io/vegas)
+
 - **3D-Belief: Embodied Belief Inference via Generative 3D World Modeling**  
   [![MMEA](https://img.shields.io/badge/-MMEA-A8DDA8?style=flat)](#-b-multimodal-embodied-agents) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.11367) [![Code](https://img.shields.io/github/stars/3D-Belief/3d-belief?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/3D-Belief/3d-belief) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://3d-belief.github.io/)
 
