@@ -744,6 +744,9 @@ manipulation, navigation, humanoids, and the data and simulators behind them.
 - **MJev-Spatial: System One Spatial Intelligence via Native Attention Matching**  
   [![RS](https://img.shields.io/badge/-RS-F6C58D?style=flat-square)](#-d-robotic-systems) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2610.22276) [![Code](https://img.shields.io/github/stars/Fr0zenCrane/MJev-Spatial?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/Fr0zenCrane/MJev-Spatial)
 
+- **Effective Parameters, Real Behavior: Renormalization for Robotics -- From Infinite Electron Mass to Sim-to-Real Gap**  
+  [![RS](https://img.shields.io/badge/-RS-F6C58D?style=flat-square)](#-d-robotic-systems) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.24079) [![Code](https://img.shields.io/github/stars/WhymustIhaveaname/R4R?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/WhymustIhaveaname/R4R)
+
 - **ActionMap: Robot Policy Learning via Voxel Action Heatmap**  
   [![RS](https://img.shields.io/badge/-RS-F6C58D?style=flat)](#-d-robotic-systems) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.06904)
 
