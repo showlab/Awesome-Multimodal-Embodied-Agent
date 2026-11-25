@@ -929,6 +929,9 @@ manipulation, navigation, humanoids, and the data and simulators behind them.
 
 #### Hybrid
 
+- **LEASH: Stay Safe in Agentic Robotics**  
+  [![Bench](https://img.shields.io/badge/-Bench-B9A3E3?style=flat-square)](#-e-benchmarks) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.14115) [![Code](https://img.shields.io/github/stars/zhuqinfeng1999/LEASH?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/zhuqinfeng1999/LEASH) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://zhuqinfeng1999.github.io/LEASH/)
+
 - **CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation**  
   [![Bench](https://img.shields.io/badge/-Bench-B9A3E3?style=flat)](#-e-benchmarks) [![Paper](https://img.shields.io/badge/-Paper-E58A8F?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.22435) [![Code](https://img.shields.io/github/stars/capgym/cap-x?style=flat-square&logo=github&label=Code&color=B7CADB)](https://github.com/capgym/cap-x) [![Project](https://img.shields.io/badge/-Project-9AC7E8?logo=googlechrome&logoColor=white&style=flat-square)](https://capgym.github.io/)
 
